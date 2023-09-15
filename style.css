@@ -27,7 +27,7 @@ header{
 .logo{
     font-size: 28px;
     font-weight: 600;
-    color: white
+    color: green;
 }
 
 .hamburger{
@@ -52,7 +52,7 @@ header{
 .nav-bar ul li a::after{
     display: block;
     content: "";
-    border-bottom: 2px solid green;
+    border-bottom: 4px solid green;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
@@ -197,6 +197,6 @@ section{
     height: 50px;
     color: white;
     font-style: oblique;
-    background: rgb(14, 44, 6);
+    background: linear-gradient(90deg, rgb(4, 4, 4) 0%, rgb(9, 59, 9) 100%);
 }
 
