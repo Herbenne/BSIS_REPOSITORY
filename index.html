@@ -10,7 +10,7 @@
   
   <body>
     <header>
-        <div class="logo">Herbenne Rey</div>
+        <div class="logo">My Portfolio</div>
         <div class="hamburger">
             <div class="line"></div>
             <div class="line"></div>
@@ -21,11 +21,35 @@
                 <li><a href="" class="active">About</a></li>
                 <li><a href="">Experience</a></li>
                 <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <section id="profile">
+
+        <div class="pic-container">
+          <img src="./assets/SOMO.png" alt="pfp"/>
+        </div>
+
+        <div class="section-txt">
+          <h1 class="title">Hello~ I'am Front-End</h1>
+          <h1 class="title">Developer</h1>
+          <p class="sec-p1">My Name is Herbenne Rey Somo, blah blah blah</p>
+        </div>
+
+        <div class="btn-container">
+          <button class="btn cv-button" onclick="window.open('./assets/CV_SOMO.pdf')">My Resume</button>
+          <button class="btn contact-button" onclick="location.href = './#contact'">Contact</button>
+        </div>
+
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://linkedin.com'">
+          <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com'">
+          <img src="./assets/fb.png" alt="My Facebook" class="icon" onclick="location.href='https://facebook.com'">
+          <img src="./assets/ig.png" alt="My Instagram" class="icon" onclick="location.href='https://instagram.com'">
+        </div>
+    </section>
     <script src="/script.js"></script>
   </body>
 </html>
