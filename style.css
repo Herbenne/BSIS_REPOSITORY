@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+
 *, html {
     padding: 0;
     margin: 0;
@@ -5,7 +7,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
     background: linear-gradient(30deg, rgb(3, 3, 3) 0%, rgb(10, 37, 3) 80%);
     overflow-x: hidden;
 }
@@ -165,8 +167,8 @@ section{
     height: 5vh;
     align-items: center;
     position: absolute;
-    top: 390px;
-    left: 755px;
+    top: 405px;
+    left: 745px;
 }
 
 .icon{
@@ -182,18 +184,19 @@ section{
     height: 8vh;
     width: 20vw;
     position: absolute;
-    top: 450px;
+    top: 465px;
     left: 805px;
 }
 
 .btn {
-    font-weight: 600;
+    font-weight: 500;
     transition: all 300ms ease;
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
     height: 50px;
-    color: green;
+    color: white;
+    font-style: oblique;
     background: rgb(14, 44, 6);
 }
 
