@@ -4,11 +4,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 body{
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(30deg, rgb(3, 3, 3) 0%, rgb(10, 37, 3) 80%);
+    background: rgb(251, 216, 194);
+    background: linear-gradient(0deg, rgba(251, 216, 194, 1) 40%, rgba(255, 234, 254, 1) 100%);
     overflow-x: hidden;
 }
 
@@ -20,14 +22,14 @@ header{
     justify-content: space-between;
     padding: 0 100px;
     align-items: center;
-    box-shadow: 0px 20px 16px rgba(3, 3, 3, 0.3);
+    box-shadow: 0px 10px 10px rgba(3, 3, 3, 0.3);
     border-radius: 0 0 3rem 3rem;
 }
 
 .logo{
     font-size: 28px;
     font-weight: 600;
-    color: green;
+    color: #fbd8c2;
 }
 
 .hamburger{
@@ -42,7 +44,7 @@ header{
 .nav-bar ul li a{
     text-decoration: none;
     display: block;
-    color: rgba(37, 114, 37, 1);
+    color: #fbd8c2;
     font-size: 20px;
     padding: 10px 25px;
     margin: 0 5px;
@@ -52,7 +54,7 @@ header{
 .nav-bar ul li a::after{
     display: block;
     content: "";
-    border-bottom: 4px solid green;
+    border-bottom: 4px solid #fbd8c2;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
@@ -75,7 +77,7 @@ header{
     .hamburger .line {
         width: 30px;
         height: 3px;
-        background: green;
+        background: #fbd8c2;
         margin: 6px 0;
     }
 
@@ -86,14 +88,15 @@ header{
         left: 0;
         right: 0;
         width: 100vw;
-        background-color: white;
+        background-color: #1c1e21;
+        border-radius: 3rem;
         box-shadow: 0 16px 8px -9px rgba(191, 191, 191, 1);
         transition: 0.5s;
         overflow: hidden;
     }
 
     .nav-bar.active {
-        height: 450px;
+        height: 400px;
     }
 
     .nav-bar ul {
@@ -139,8 +142,8 @@ section{
 
 .pic-container img{
     border-radius: 50%;
-    border: 3px solid black;
-    box-shadow: 36px -28px 85px 8px rgba(0, 0, 0, 1);
+    border: 3px solid pink;
+    box-shadow: 36px -28px 85px 8px rgba(255, 255, 255, 1);
 }
 
 .section-txt{
@@ -150,13 +153,13 @@ section{
 
 .title{
     font-size: 40px;
-    color: wheat;
+    color: black;
 }
 
 .sec-p1{
     font-weight: 500;
     font-style: italic;
-    color: whitesmoke;
+    color: black;
 }
 
 #socials-container{
@@ -168,7 +171,7 @@ section{
     align-items: center;
     position: absolute;
     top: 405px;
-    left: 745px;
+    left: 732px;
 }
 
 .icon{
@@ -189,14 +192,46 @@ section{
 }
 
 .btn {
-    font-weight: 500;
+    font-weight: 700;
     transition: all 300ms ease;
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
     height: 50px;
-    color: white;
+    color: black;
     font-style: oblique;
-    background: linear-gradient(90deg, rgb(4, 4, 4) 0%, rgb(9, 59, 9) 100%);
+    background: linear-gradient(45deg,
+            hsl(23deg 88% 87%) 0%,
+            hsl(24deg 43% 81%) 50%,
+            hsl(0deg 0% 74%) 100%);
+    border: 1px solid black;
 }
 
+#about{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 100vh;
+    position: relative;
+    background: white;
+}
+
+.custom-shape-divider-top-1694835449 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1694835449 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 252px;
+}
+
+.custom-shape-divider-top-1694835449 .shape-fill {
+    fill: #fbd8c2;
+}
