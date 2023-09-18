@@ -46,4 +46,9 @@
     .nav-bar ul li a {
         margin-bottom: 12px;
     }
+
+    /* PROJECT */
+    .projects-container{
+        padding: 20px;
+    }
 }
