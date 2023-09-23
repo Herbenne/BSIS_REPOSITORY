@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    border: 1px solid red;
 }
 
 body{
@@ -463,4 +464,87 @@ article .icon {
 .projects-container .projects-box .box:hover{
     box-shadow: 0 10px 15px rgba(rgba(0, 0, 0, 0.3));
     transform: scale(1.03);
+}
+
+/* CONTACT */
+
+#contact{
+    background: #FBD8C2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#contact h1{
+    position: absolute;
+    margin-right: 58rem;
+    margin-bottom: 30rem;
+    font-size: 30px;
+}
+
+.contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.contact-card{
+    background: #1c1e21;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FBD8C2;
+    border-radius: 10px;
+}
+
+.card-icon{
+    font-size: 28px;
+    background: #ff6348;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.contact-card:hover .card-icon{
+    background: none;
+    color: #ff6348;
+    transform: scale(1.6);
+}
+
+.contact-card p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.contact-card:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
+
+footer{
+    height: 10vh;
+    background: #1c1e21;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.55rem;
+    color: #FBD8C2;
 }
