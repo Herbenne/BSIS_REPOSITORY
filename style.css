@@ -5,7 +5,6 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    border: 1px solid red;
 }
 
 body{
@@ -197,14 +196,20 @@ section{
     width: 250px;
     left: 30px;
     top: 145px;
+    z-index: 1;
 }
 
 .avatar-container{
-    display: flex;
     height: 300px;
     width: 300px;
-    margin-top: 230px;
-    margin-left: 200px;
+    position: relative;
+    top: 230px;
+    left: 32px;
+}
+
+.avatar-container img{
+    height: 300px;
+    width: 300px;
 }
 
 .aboutxt-container{
@@ -469,7 +474,7 @@ article .icon {
 /* CONTACT */
 
 #contact{
-    background: #FBD8C2;
+    background: #FFF;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -540,11 +545,11 @@ article .icon {
 footer{
     height: 10vh;
     background: #1c1e21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer p{
-    display: flex;
-    justify-content: center;
-    margin-top: 1.55rem;
     color: #FBD8C2;
 }
