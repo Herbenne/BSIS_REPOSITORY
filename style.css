@@ -9,8 +9,7 @@
 
 body{
     font-family: "Poppins", sans-serif;
-    background: rgb(251, 216, 194);
-    background: linear-gradient(0deg, rgba(251, 216, 194, 1) 40%, rgba(255, 234, 254, 1) 100%);
+    background: #FBD8C2;
     overflow-x: hidden;
 }
 
