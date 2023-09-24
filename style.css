@@ -498,7 +498,7 @@ article .icon {
 }
 
 .contact-card{
-    background: #1c1e21;
+    background: #fbd8c2;
     padding: 0 20px;
     margin: 0 10px;
     width: calc(33% - 20px);
@@ -510,10 +510,13 @@ article .icon {
     color: #FBD8C2;
     border-radius: 10px;
 }
-
+.contact-card p{
+    color: #1c1e21;
+    font-weight: 800;
+}
 .card-icon{
     font-size: 28px;
-    background: #ff6348;
+    background: #1c1e21;
     width: 60px;
     height: 60px;
     text-align: center;
@@ -524,7 +527,7 @@ article .icon {
 
 .contact-card:hover .card-icon{
     background: none;
-    color: #ff6348;
+    color: #1c1e21;
     transform: scale(1.6);
 }
 
