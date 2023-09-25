@@ -106,6 +106,20 @@ section{
 .title{
     font-size: 40px;
     color: black;
+    border-right: 2px solid black;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:  typing 2s steps(21),    
+                cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    50% { border-color: transparent;}
+}
+
+@keyframes typing{
+    from { width: 0; }
 }
 
 .sec-p1{
@@ -191,9 +205,9 @@ section{
 .ufo-container {
     position: absolute;
     display: flex;
-    height: 250px;
-    width: 250px;
-    left: 30px;
+    height: 230px;
+    width: 230px;
+    left: 25px;
     top: 145px;
     z-index: 1;
 }
@@ -508,6 +522,7 @@ article .icon {
     align-items: center;
     color: #FBD8C2;
     border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
 }
 .contact-card p{
     color: #1c1e21;
@@ -544,6 +559,17 @@ article .icon {
     opacity: 1;
 }
 
+.contact-pic-container img{
+    position: absolute;
+    height: 175px;
+    width: 300px;
+}
+
+.contact-pic-container{
+    position: absolute;
+    margin-bottom: 35rem;
+    margin-left: 28.5rem;
+}
 footer{
     height: 10vh;
     background: #1c1e21;

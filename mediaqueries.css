@@ -50,7 +50,7 @@
 
     .aboutxt-container{
         margin-left: 430px;
-        margin-bottom: 250px;
+        margin-bottom: 270px;
         width: 390px;
     }
 
@@ -117,12 +117,13 @@
         padding: 20px;
     }
 
+    #projects{
+        height: 145vh;
+    }
+
 
 
     /* CONTACT */
-    #contact{
-        margin-top: 40vh;
-    }
 
     #contact h1{
         margin-left: 58rem;
@@ -140,4 +141,82 @@
         margin: 10px 0;
         height: 180px;
     }
+
+    .contact-pic-container img{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .btn-container{
+        left: 7.5rem;
+    }
+
+    #socials-container{
+        margin-left: 4rem;   
+    }
+
+    .avatar-container img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .avatar-container{
+        height: 150px;
+        width: 150px;
+    }
+
+    .aboutxt-container{
+        margin-bottom: 180px;
+        width: 440px;
+    }
+
+    .exptxt-container{
+        top: 105px;
+    }
+
+    .contact-pic-container{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 475px){
+    .btn-container{
+        left: 2rem;
+    }
+
+    #socials-container{
+        left: 5rem;
+    }
+
+    .aboutxt-container{
+        width: 420px;
+        margin-right: 27rem;
+        margin-top: 10rem;
+        z-index: 2;
+    }
+
+    .ufo-container{
+        margin-left: 14rem;
+    }
+
+    .avatar-container{
+        display: none;
+        visibility: hidden;
+    }
+
+    .exptxt-container{
+        top: 110px;
+    }
+
+    .experience-container{
+        margin: auto 15px;
+    }
+
+    #projects{
+        height: 240vh;
+    }
+
 }
