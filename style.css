@@ -226,6 +226,7 @@ section{
 }
 
 .aboutxt-container{
+    position: absolute;
     align-self: center;
     margin-right: 240px;
     width: 500px;
