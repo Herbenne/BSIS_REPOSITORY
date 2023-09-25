@@ -176,6 +176,7 @@ section{
 #about{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 2rem;
     height: 100vh;
     position: relative;
@@ -215,9 +216,8 @@ section{
 .avatar-container{
     height: 300px;
     width: 300px;
-    position: relative;
-    top: 230px;
-    left: 32px;
+    position: absolute;
+    left: 15rem;
 }
 
 .avatar-container img{
@@ -228,7 +228,7 @@ section{
 .aboutxt-container{
     position: absolute;
     align-self: center;
-    margin-right: 240px;
+    margin-left: 10rem;
     width: 500px;
 }
 

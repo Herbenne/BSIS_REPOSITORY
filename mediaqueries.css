@@ -39,20 +39,20 @@
     }
 
     .avatar-container{
-        height: 150px;
-        width: 150px;
-        top: 290px;
+        height: 200px;
+        width: 200px;
+        top: 250px;
         left: 1rem;
     }
 
     
     .avatar-container img{
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
     }
 
     .aboutxt-container{
-        margin-left: 280px;
+        margin-left: 150px;
         width: 450px;
     }
 
@@ -188,7 +188,7 @@
 
     .aboutxt-container{
         width: 450px;
-        margin-right: 18rem;
+        margin-right: 10rem;
     }
 
     .avatar-container{
