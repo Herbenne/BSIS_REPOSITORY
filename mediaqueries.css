@@ -63,7 +63,11 @@
    }
 
    .exptxt-container{
-        top: 80px;
+        top: 95px;
+   }
+
+   .exptxt-container h1{
+    font-size: 28px;
    }
     .experience-container{
         margin: auto 30px;
@@ -182,7 +186,6 @@
     }
 
     .aboutxt-container{
-        margin-top: 15rem;
         width: 450px;
         margin-right: 18rem;
     }
@@ -198,9 +201,16 @@
     }
 
     .exptxt-container{
-        top: 85px;
+        top: 90px;
     }
 
+    .exptxt-container h1{
+        font-size: 25px;
+    }
+
+    .exptxt-container p{
+        font-size: 15px;
+    }
     .contact-pic-container{
         display: none;
     }
@@ -218,8 +228,6 @@
 
     .aboutxt-container{
         width: 420px;
-        margin-right: 27rem;
-        margin-top: 10rem;
         z-index: 2;
     }
 
@@ -236,12 +244,24 @@
         top: 110px;
     }
 
+    .exptxt-container h1{
+        font-size: 25px;
+    }
+
+    .exptxt-container p{
+        font-size: 15px;
+    }
+
     .experience-container{
-        margin: auto 15px;
+        margin: auto 35px;
+    }
+
+    .experience-container h2{
+        font-size: 20px;
     }
 
     #projects{
-        height: 240vh;
+        height: 255vh;
     }
 
 }
