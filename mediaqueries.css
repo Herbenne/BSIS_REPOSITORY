@@ -314,6 +314,10 @@
         font-size: 30px;
     }
 
+    .section-txt{
+        padding-left: 25px;
+    }
+
     .btn-container{
         display: flex;
         justify-content: center;
