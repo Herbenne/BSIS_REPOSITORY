@@ -31,8 +31,12 @@ header{
 .logo{
     font-size: 28px;
     font-weight: 600;
+    color: #ed335f;
+}
+
+.logo .Portfolio{
     color: #fbd8c2;
-}   
+}
 
 .hamburger{
     display: none;
@@ -105,21 +109,8 @@ section{
 
 .title{
     font-size: 40px;
-    color: black;
-    border-right: 2px solid black;
+    color: #ed335f;
     width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    animation:  typing 2s steps(21),    
-                cursor .4s step-end infinite alternate;
-}
-
-@keyframes cursor{
-    50% { border-color: transparent;}
-}
-
-@keyframes typing{
-    from { width: 0; }
 }
 
 .sec-p1{
@@ -234,7 +225,7 @@ section{
 
 .title1{
     font-size: 35px;
-    color: #1c1e21;
+    color: #ed335f;
     border-bottom: 2px solid #1c1e21;
 }
 
@@ -323,6 +314,7 @@ section{
 }
 .exptxt-container h1{
     font-size: 35px;
+    color: #ed335f;
 }
 
 .experience-container{
@@ -353,6 +345,7 @@ section{
     flex-direction: row;
     gap: 2rem;
     justify-content: space-around;
+    color: #ed335f;
 }
 
 article {
@@ -430,7 +423,7 @@ article .icon {
 .projects-container .heading{
     text-align: center;
     padding-bottom: 15px;
-    color: black;
+    color: #ed335f;
     text-shadow: 0 5px 10px rgba(0,0,0,.2);
     font-size: 50px;
 }
@@ -455,7 +448,7 @@ article .icon {
 }
 
 .projects-container .projects-box .box h3{
-    color: #444;
+    color: #ed335f;
     font-size: 22px;
     padding: 10px 0;
 }
@@ -474,6 +467,7 @@ article .icon {
     font-size: 17px;
     border-radius: 5px;
     padding: 8px 25px;
+    text-decoration: none;
 }
 
 .projects-container .projects-box .box .p-button:hover{
@@ -500,6 +494,7 @@ article .icon {
     margin-right: 58rem;
     margin-bottom: 30rem;
     font-size: 30px;
+    color: #ed335f;
 }
 
 .contact-info{
