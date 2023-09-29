@@ -100,6 +100,7 @@ section{
     border-radius: 50%;
     border: 3px solid pink;
     box-shadow: 36px -28px 85px 8px rgba(255, 255, 255, 1);
+    animation: fadeInFromTop .5s linear forwards, floating ease 4s infinite;
 }
 
 .section-txt{
@@ -197,11 +198,12 @@ section{
 .ufo-container {
     position: absolute;
     display: flex;
-    height: 230px;
-    width: 230px;
+    height: 220px;
+    width: 220px;
     left: 25px;
     top: 145px;
     z-index: 1;
+    animation: fadeInFromTop .5s linear forwards, floating ease 3s infinite;
 }
 
 .avatar-container{
@@ -302,6 +304,7 @@ section{
     width: 250px;
     top: 490px;
     left: 20px;
+    animation: fadeInFromTop .5s linear forwards, floating ease 4s infinite;
 }
 
 .exp-pic-container1{
@@ -311,6 +314,7 @@ section{
     width: 150px;
     top: 190px;
     right: 190px;
+    animation: fadeInFromTop .5s linear forwards, floating ease 4s infinite;
 }
 .exptxt-container h1{
     font-size: 35px;
@@ -438,7 +442,7 @@ article .icon {
 .projects-container .projects-box .box{
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     border-radius: 5px;
-    background: #fff;
+    background: #FBD8C2;
     text-align: center;
     padding: 30px 20px;
 }
@@ -559,6 +563,7 @@ article .icon {
     position: absolute;
     height: 175px;
     width: 300px;
+    animation: fadeInFromTop .5s linear forwards, floating ease 4s infinite;
 }
 
 .contact-pic-container{
@@ -576,4 +581,38 @@ footer{
 
 footer p{
     color: #FBD8C2;
+}
+
+@keyframes fadeInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0%, -3%) rotate(360deg);
+    }
+
+    25% {
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+
+    50% {
+        transform: translate(0%, 3%) rotate(360deg);
+    }
+
+    75% {
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+
+    100% {
+        transform: translate(0%, -3%) rotate(360deg);
+    }
 }
