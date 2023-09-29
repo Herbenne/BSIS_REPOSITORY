@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-    /*PROFILE*/
+    /*PROFILE 768x1024 IPAD MINI*/ 
     header{
         position: absolute;
         position: fixed;
@@ -11,14 +11,14 @@
     }
 
     .pic-container{
-        height: 200px;
-        width: 200px;
-        margin-top: 7rem;
+        height: 380px;
+        width: 380px;
+        margin-top: 6rem;
     }
 
     .pic-container img{
-        height: 200px;
-        width: 200px;
+        height: 380px;
+        width: 380px;
     }
 
     #socials-container{
@@ -39,26 +39,25 @@
     }
 
     .ufo-container{
-        height: 100px;
-        width: 100px;
+        height: 200px;
+        width: 200px;
     }
 
     .avatar-container{
-        height: 200px;
-        width: 200px;
-        top: 250px;
+        height: 230px;
+        width: 230px;
+        top: 420px;
         left: 1rem;
     }
 
-    
     .avatar-container img{
-        height: 200px;
-        width: 200px;
+        height: 230px;
+        width: 230px;
     }
 
     .aboutxt-container{
-        margin-left: 150px;
-        width: 450px;
+        margin-left: 250px;
+        width: 500px;
     }
 
 
@@ -69,23 +68,15 @@
    }
 
    .exptxt-container{
-        top: 95px;
+        top: 150px;
    }
 
    .exptxt-container h1{
-    font-size: 28px;
+    font-size: 50px;
    }
     .experience-container{
         margin: auto 30px;
-        width: 35vw;
-    }
-   
-    #projects{
-        height: 160vh;
-    }
-
-    #contact{
-        height: 100vh;
+        width: 45vw;
     }
    
    /*NAV BAR*/
@@ -141,19 +132,16 @@
         padding: 20px;
     }
 
-    #projects{
-        height: 140vh;
-    }
-
-
-
     /* CONTACT */
-
+    #contact{
+        height: 100vh;
+    }
     #contact h1{
+        position: absolute;
+        width: 41.3vw;
         margin-left: 58rem;
-        margin-bottom: 38rem;
-        width: 195px;
-        text-align: center;
+        margin-bottom: 50rem;
+        font-size: 50px;
     }
 
     .contact-info{
@@ -170,25 +158,43 @@
         display: none;
         visibility: hidden;
     }
-
-    #contact h1 {
-        font-size: 30px;
-    }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 414px){
     header{
+        padding: 5px 35px;
+        border-radius: 0 0 2rem 2rem;
         position: absolute;
         position: fixed;
     }
-    .btn-container{
-        left: 7.5rem;
-        top: 36rem;
+    .logo {
+        font-size: 20px;
+    }
+    .pic-container{
+        height: 280px;
+        width: 280px;
     }
 
-    #socials-container{
-        left: 14.5rem;   
-        top: 33rem;
+    .pic-container img{
+        height: 280px;
+        width: 280px;
+    }
+
+    .section-txt{
+        font-size: smaller;
+        position: absolute;
+        top: 28rem;
+    }
+
+    .btn-container{
+        top: 40rem;
+        left: 2.5rem;
+        width: 325px;
+    }
+
+    #socials-container{ 
+        top: 37rem;
+        left: 7rem;
     }
 
     .avatar-container img{
@@ -202,8 +208,8 @@
     }
 
     .aboutxt-container{
-        width: 450px;
-        margin-right: 10rem;
+        width: 390px;
+        margin-right: 15.5rem;
     }
 
     .avatar-container{
@@ -212,53 +218,73 @@
     }
 
     .ufo-container{
-        margin-left: 20rem;
         top: 7.5rem;
+        height: 130px;
+        width: 130px;
+        margin-left: 10rem;
     }
 
+    .experience-container{
+        width: 45vw;
+        margin: auto 5px;
+    }
+
+    .experience-sub{
+        font-size: 1.25rem;
+    }
     .exptxt-container{
-        top: 90px;
+        top: 150px;
     }
 
     .exptxt-container h1{
-        font-size: 25px;
+        font-size: 50px;
     }
 
     .exptxt-container p{
-        font-size: 15px;
+        font-size: 30px;
     }
     .contact-pic-container{
         display: none;
     }
 
+    #project{
+        height: 270vh;
+    }
     #contact h1 {
         font-size: 30px;
+        width: 191px;
+    }
+
+    footer{
+        text-align: center;
     }
 
 }
 
-@media screen and (max-width: 475px){
+@media screen and (max-width: 390px){
+    /* IPHONE 12 PRO */
+
     header{
         position: absolute;
         position: fixed;
     }
     .btn-container{
         left: 2.3rem;
-        top: 36rem;
+        top: 40rem;
     }
 
     #socials-container{
-        left: 9.2rem;
-        top: 33rem;
+        left: 6.8rem;
+        top: 37rem;
     }
 
     .aboutxt-container{
-        width: 420px;
+        width: 350px;
         z-index: 2;
     }
 
     .ufo-container{
-        margin-left: 14rem;
+        margin-left: 8rem;
     }
 
     .avatar-container{
@@ -267,38 +293,35 @@
     }
 
     .exptxt-container{
-        top: 110px;
+        top: 150px;
     }
 
     .exptxt-container h1{
-        font-size: 25px;
+        font-size: 50px;
     }
 
     .exptxt-container p{
-        font-size: 15px;
+        font-size: 30px;
     }
 
     .experience-container{
-        margin: auto 20px;
-        width: 300px;
+        margin: auto 5px;
+        width: 200px;
     }
 
     .experience-container h2{
         font-size: 20px;
     }
 
-    #projects{
-        height: 240vh;
-    }
-
     #contact h1 {
         font-size: 30px;
+        margin-top: 150px;
     }
 
 }
 
 @media screen and (max-width: 375px){
-
+/* IPHONE SE */
     header{
         border-radius: 0 0 2rem 2rem ;
         padding: 10px 25px;
@@ -313,9 +336,19 @@
     .title{
         font-size: 30px;
     }
+    
+    .pic-container{
+        height: 200px;
+        width: 200px;
+    }
 
+    .pic-container img{
+        height: 200px;
+        width: 200px;
+    }
     .section-txt{
         padding-left: 25px;
+        top: 22rem;
     }
 
     .btn-container{
@@ -325,21 +358,25 @@
         height: 5vh;
         width: 325px;
         left: 1.6rem;
-        top: 570px;
+        top: 550px;
     }
 
     #socials-container{
-        top: 510px;
+        top: 490px;
         left: 6.1rem;
         position: absolute;
     }
 
     .aboutxt-container{
-        width: 320px;
+        width: 350px;
+        margin-right: 250px;
+        top: 7.5rem;
     }
 
     .ufo-container{
         top: 4rem;
+        height: 100px;
+        width: 100px;
     }
 
     .experience-container{
@@ -351,11 +388,24 @@
         top: 120px;
     }
 
+    .exptxt-container p{
+        font-size: 15px;
+    }
+
+    .exptxt-container h1{
+        font-size: 25px;
+    }
+    #contact{
+        height: 150vh;
+    }
+
     footer{
         text-align: center;
+
     }
 
     #contact h1{
+        width: 191px;
         font-size: 30px;
     }
 }
