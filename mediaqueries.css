@@ -302,8 +302,8 @@
     header{
         border-radius: 0 0 2rem 2rem ;
         padding: 10px 25px;
-        position: fixed;
         position: absolute;
+        position: fixed;
     }
 
     .logo{
