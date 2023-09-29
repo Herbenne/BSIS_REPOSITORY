@@ -13,6 +13,7 @@ body{
     overflow-x: hidden;
 }
 
+/* HEADER WITH NAVIGATOR */
 header{
     width: 100%;
     height: 80px;
@@ -23,9 +24,10 @@ header{
     align-items: center;
     box-shadow: 0px 10px 10px rgba(3, 3, 3, 0.3);
     border-radius: 0 0 3rem 3rem;
-    position: sticky;
+    position: absolute;
+    position: fixed;
     top: 0;
-    z-index: 1000; /* para nangunguna lagi */
+    z-index: 99; 
 }
 
 .logo{
@@ -76,17 +78,18 @@ header{
 section{
 
     padding-top: 4vh;
-    height: 85vh;
     margin: 0 10 rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
 
+/* PROFILE SECTION */
 #profile{
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 89.8vh;
+    height: 100vh;
+    background: #FBD8C2;
 }
 
 .pic-container{
@@ -263,7 +266,7 @@ section{
     justify-content: center;
     height: 100vh;
     position: relative;
-    background: white;
+    background: #fff;
 }
 
 .custom-shape-divider-top-1695021171 {
@@ -385,7 +388,6 @@ article .icon {
 }
 
 /* PROJECT SECTION */
-
 .custom-shape-divider-top-1695026829 {
     position: absolute;
     top: 0;
@@ -483,10 +485,9 @@ article .icon {
     transform: scale(1.03);
 }
 
-/* CONTACT */
-
+/* CONTACT SECTION*/
 #contact{
-    background: #FFF;
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -571,6 +572,8 @@ article .icon {
     margin-bottom: 35rem;
     margin-left: 28.5rem;
 }
+
+/* FOOTER */
 footer{
     height: 10vh;
     background: #1c1e21;
@@ -583,6 +586,7 @@ footer p{
     color: #FBD8C2;
 }
 
+/* KEYFRAMES for PIC animation */
 @keyframes fadeInFromTop {
     from {
         opacity: 0;
@@ -614,5 +618,97 @@ footer p{
 
     100% {
         transform: translate(0%, -3%) rotate(360deg);
+    }
+}
+
+/* PRE LOADER */
+.preloader{
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    opacity: .8;
+    backdrop-filter: blur(5px);
+    background-color: #1c1e21;
+}
+
+.loader3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bars {
+    width: 10px;
+    height: 20px;
+    margin: 0 2px;
+    border-radius: 4px;
+    animation: loader3 3s ease-in-out infinite;
+}
+
+.bar1 {
+    background-color: #ed335f;
+    animation-delay: -0.8s;
+}
+
+.bar2 {
+    background-color: #ed335f;
+    animation-delay: -0.7s;
+}
+
+.bar3 {
+    background-color: #ed335f;
+    animation-delay: -0.6s;
+}
+
+.bar4 {
+    background-color: #ed335f;
+    animation-delay: -0.5s;
+}
+
+.bar5 {
+    background-color: #ed335f;
+    animation-delay: -0.4s;
+}
+
+.bar6 {
+    background-color: #ed335f;;
+    animation-delay: -0.3s;
+}
+
+.bar7 {
+    background-color: #ed335f;
+    animation-delay: -0.2s;
+}
+
+.bar8 {
+    background-color: #ed335f;
+    animation-delay: -0.1s;
+}
+
+.bar9 {
+    background-color: #ed335f;
+    animation-delay: 0s;
+}
+
+.bar10 {
+    background-color: #ed335f;
+    animation-delay: 0.1s;
+}
+
+@keyframes loader3 {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1, 2.32);
+    }
+
+    40% {
+        transform: scale(1);
     }
 }

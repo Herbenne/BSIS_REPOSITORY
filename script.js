@@ -10,3 +10,11 @@ var typed = new Typed(".auto-input", {
         backSpeed: 100,
         loop: true 
 })
+
+$(window).on("load", function () {
+        setTimeout(function () {
+          $(".preloader").fadeOut(function () {
+            $("body").removeClass("noscroll");
+          });
+        }, 2500);
+      });

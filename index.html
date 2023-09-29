@@ -7,12 +7,31 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="mediaqueries.css"/>
     <script src="https://kit.fontawesome.com/84b0819382.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   
   <body>
+    
+    <div class="preloader">
+      <div class="loader3">
+        <div class="bars bar1"></div>
+        <div class="bars bar2"></div>
+        <div class="bars bar3"></div>
+        <div class="bars bar4"></div>
+        <div class="bars bar5"></div>
+        <div class="bars bar6"></div>
+        <div class="bars bar7"></div>
+        <div class="bars bar8"></div>
+        <div class="bars bar9"></div>
+        <div class="bars bar10"></div>
+      </div>
+    </div>
+
     <header>
-        <div class="logo">My <span class="Portfolio">Portfolio</span></div>
+        <div class="logo">Herbenne <span class="Portfolio">Rey</span></div>
         <div class="hamburger">
             <div class="line"></div>
             <div class="line"></div>
@@ -31,7 +50,7 @@
 
     <section id="profile">
 
-        <div class="pic-container">
+        <div class="pic-container" data-aos="fade-up">
           <img src="./assets/SOMO.png" alt="pfp"/>
         </div>
 
@@ -66,11 +85,11 @@
           <div class="ufo-container">
             <img src="./assets/ufo.png" alt="ufo">
           </div>
-          <div class="avatar-container">
+          <div class="avatar-container" data-aos="fade-right">
             <img src="./assets/undraw_Male_avatar_g98d.png" alt="avatar">
           </div>
 
-          <div class="aboutxt-container">
+          <div class="aboutxt-container" data-aos="fade-left">
             <h1 class="title1">About Me</h1>
             <p class="sec1-p1">Good Day, I'm Herbenne Rey V. Somo, 22 years old, from Valenzuela City and I'm currently
               studying at Technological University of the Philippines, majoring in Bachelor of Science in Information System.
@@ -107,12 +126,12 @@
             <img src="./assets/exp.png" alt="expic">
         </div>
 
-        <div class="exptxt-container">
+        <div class="exptxt-container" data-aos="fade-down">
           <p>Explore My</p>
           <h1>Experience</h1>
         </div>
 
-        <div class="experience-container">
+        <div class="experience-container" data-aos="flip-up">
             <div class="details-container">
               <h2 class="experience-sub">Frontend Development</h2>
               <div class="article-container">
@@ -144,7 +163,7 @@
             </div>
         </div>
 
-        <div class="experience-container">
+        <div class="experience-container" data-aos="flip-up">
             <div class="details-container">
                 <h2 class="experience-sub">Backend Development</h2>
                 <div class="article-container">
@@ -195,30 +214,30 @@
         </div>
 
         <div class="projects-container">
-            <h1 class="heading">My Projects</h1>
+            <h1 class="heading" data-aos="fade-down">My Projects</h1>
             <div class="projects-box">
-                <div class="box">
+                <div class="box" data-aos="zoom-in">
                     <img src="./assets/github.png" alt="">
                     <h3>Python <br>Student Record</h3>
                     <p>Python Project "Student Record"</p>
                     <a href="https://github.com/Herbenne/Python-Student-Record" class="p-button">Click Here</a>
                 </div>
 
-                <div class="box">
+                <div class="box" data-aos="zoom-in">
                     <img src="./assets/github.png" alt="">
                     <h3>Python <br>ATM GUI</h3>
                     <p>Python Project "ATM GUI"</p>
                     <a href="https://github.com/Herbenne/Python-ATM-GUI" class="p-button">Click Here</a>
                 </div>
 
-                <div class="box">
+                <div class="box" data-aos="zoom-in">
                     <img src="./assets/github.png" alt="">
                     <h3>C <br>ATM Machine</h3>
                     <p>C Programming ATM Machine</p>
                     <a href="https://github.com/Herbenne/C-ATM-TRANSACTION-AND-REGISTRATION" class="p-button">Click Here</a>
                 </div>
 
-                <div class="box">
+                <div class="box" data-aos="zoom-in">
                     <img src="./assets/github.png" alt="">
                     <h3>C<br>Ticketing System</h3>
                     <p>C Ticketing System</p>
@@ -230,22 +249,22 @@
     </section>
 
     <section id="contact">
-      <h1>Contact Info</h1>
+      <h1 data-aos="fade-right">Contact Info</h1>
       <div class="contact-pic-container">
         <img src="/assets/contact.png" alt="contact-pic">
       </div>
-      <div class="contact-info">
+      <div class="contact-info" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
           <div class="contact-card">
               <i class="card-icon fas fa-envelope"></i>
               <p>somoherbenne09@gmail.com</p>
           </div>
 
-          <div class="contact-card">
+          <div class="contact-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
               <i class="card-icon fas fa-phone"></i>
               <p>+63 9453819149</p>
           </div>
 
-          <div class="contact-card">
+          <div class="contact-card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
               <i class="card-icon fas fa-map-marker-alt"></i>
               <p>Valenzuela City, Metro Manila</p>
           </div>
@@ -255,5 +274,6 @@
       <p>Copyright; 2023 Somo, Herbenne. All Rights Reserved.</p>
     </footer>
     <script src="/script.js"></script>
+    <script>AOS.init();</script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     /*PROFILE*/
     #profile{
         flex-direction: column;
@@ -8,7 +8,7 @@
     .pic-container{
         height: 200px;
         width: 200px;
-        margin-top: 2rem;
+        margin-top: 7rem;
     }
 
     .pic-container img{
@@ -18,12 +18,12 @@
 
     #socials-container{
         left: 165px;
-        top: 520px;
+        top: 470px;
     }
 
     .btn-container{
         left: 183px;
-        top: 575px;
+        top: 520px;
         width: 400px;
     }
 
@@ -167,7 +167,7 @@
     }
 }
 
-@media only screen and (max-width: 640px){
+@media screen and (max-width: 640px){
     .btn-container{
         left: 7.5rem;
     }
@@ -218,7 +218,7 @@
 
 }
 
-@media only screen and (max-width: 475px){
+@media screen and (max-width: 475px){
     .btn-container{
         left: 2rem;
     }
