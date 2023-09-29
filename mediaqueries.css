@@ -289,12 +289,13 @@
         align-items: center;
         height: 5vh;
         width: 325px;
+        left: 1.6rem;
         top: 550px;
     }
 
     #socials-container{
         top: 490px;
-        left: 40px;
+        left: 35px;
         position: absolute;
     }
 
@@ -309,6 +310,10 @@
     .experience-container{
         width: 200px;
         margin: auto 5px;
+    }
+
+    .exptxt-container{
+        top: 120px;
     }
 
     footer{
