@@ -1,5 +1,10 @@
 @media screen and (max-width: 768px) {
     /*PROFILE*/
+    header{
+        position: absolute;
+        position: fixed;
+    }
+
     #profile{
         flex-direction: column;
         align-items: center;
@@ -18,12 +23,12 @@
 
     #socials-container{
         left: 295px;
-        top: 490px;
+        top: 520px;
     }
 
     .btn-container{
         left: 183px;
-        top: 540px;
+        top: 570px;
         width: 400px;
     }
 
@@ -172,14 +177,18 @@
 }
 
 @media screen and (max-width: 640px){
+    header{
+        position: absolute;
+        position: fixed;
+    }
     .btn-container{
         left: 7.5rem;
-        top: 35rem;
+        top: 36rem;
     }
 
     #socials-container{
-        margin-left: 4rem;   
-        top: 32rem;
+        left: 14.5rem;   
+        top: 33rem;
     }
 
     .avatar-container img{
@@ -229,14 +238,18 @@
 }
 
 @media screen and (max-width: 475px){
+    header{
+        position: absolute;
+        position: fixed;
+    }
     .btn-container{
-        left: 2rem;
-        top: 34rem;
+        left: 2.3rem;
+        top: 36rem;
     }
 
     #socials-container{
-        left: 5rem;
-        top: 31rem;
+        left: 9.2rem;
+        top: 33rem;
     }
 
     .aboutxt-container{
@@ -287,9 +300,10 @@
 @media screen and (max-width: 375px){
 
     header{
-        width: 375px;
         border-radius: 0 0 2rem 2rem ;
         padding: 10px 25px;
+        position: fixed;
+        position: absolute;
     }
 
     .logo{
@@ -307,12 +321,12 @@
         height: 5vh;
         width: 325px;
         left: 1.6rem;
-        top: 550px;
+        top: 570px;
     }
 
     #socials-container{
-        top: 490px;
-        left: 35px;
+        top: 510px;
+        left: 6.1rem;
         position: absolute;
     }
 
