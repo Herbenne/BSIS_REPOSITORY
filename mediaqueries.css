@@ -266,3 +266,52 @@
     }
 
 }
+
+@media screen and (max-width: 375px){
+
+    header{
+        width: 375px;
+        border-radius: 0 0 2rem 2rem ;
+        padding: 10px 25px;
+    }
+
+    .logo{
+        font-size: 20px;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .btn-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        width: 325px;
+        top: 550px;
+    }
+
+    #socials-container{
+        top: 490px;
+        left: 40px;
+        position: absolute;
+    }
+
+    .aboutxt-container{
+        width: 320px;
+    }
+
+    .ufo-container{
+        top: 4rem;
+    }
+
+    .experience-container{
+        width: 200px;
+        margin: auto 5px;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
