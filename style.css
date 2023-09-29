@@ -491,14 +491,14 @@ article .icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 #contact h1{
     position: absolute;
     margin-right: 58rem;
     margin-bottom: 30rem;
-    font-size: 30px;
+    font-size: 50px;
     color: #ed335f;
 }
 

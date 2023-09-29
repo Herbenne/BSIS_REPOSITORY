@@ -17,13 +17,13 @@
     }
 
     #socials-container{
-        left: 165px;
-        top: 470px;
+        left: 295px;
+        top: 490px;
     }
 
     .btn-container{
         left: 183px;
-        top: 520px;
+        top: 540px;
         width: 400px;
     }
 
@@ -137,7 +137,7 @@
     }
 
     #projects{
-        height: 145 vh;
+        height: 140vh;
     }
 
 
@@ -165,15 +165,21 @@
         display: none;
         visibility: hidden;
     }
+
+    #contact h1 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 640px){
     .btn-container{
         left: 7.5rem;
+        top: 35rem;
     }
 
     #socials-container{
         margin-left: 4rem;   
+        top: 32rem;
     }
 
     .avatar-container img{
@@ -216,15 +222,21 @@
         display: none;
     }
 
+    #contact h1 {
+        font-size: 30px;
+    }
+
 }
 
 @media screen and (max-width: 475px){
     .btn-container{
         left: 2rem;
+        top: 34rem;
     }
 
     #socials-container{
         left: 5rem;
+        top: 31rem;
     }
 
     .aboutxt-container{
@@ -254,7 +266,8 @@
     }
 
     .experience-container{
-        margin: auto 35px;
+        margin: auto 20px;
+        width: 300px;
     }
 
     .experience-container h2{
@@ -262,7 +275,11 @@
     }
 
     #projects{
-        height: 255vh;
+        height: 240vh;
+    }
+
+    #contact h1 {
+        font-size: 30px;
     }
 
 }
@@ -318,5 +335,9 @@
 
     footer{
         text-align: center;
+    }
+
+    #contact h1{
+        font-size: 30px;
     }
 }
