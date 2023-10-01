@@ -277,7 +277,7 @@ section{
     display: flex;
     height: 250px;
     width: 250px;
-    bottom: 30px;
+    bottom: 0px;
     left: 20px;
     animation: fadeInFromTop .5s linear forwards, floating ease 4s infinite;
 }
