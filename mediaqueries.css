@@ -70,7 +70,11 @@
    }
 
    .exptxt-container h1{
-    font-size: 50px;
+    font-size: 25px;
+   }
+
+   .exptxt-container p{
+       font-size: 15px;
    }
     .experience-container{
         margin: auto 30px;
@@ -236,11 +240,11 @@
     }
 
     .exptxt-container h1{
-        font-size: 50px;
+        font-size: 25px;
     }
 
     .exptxt-container p{
-        font-size: 30px;
+        font-size: 15px;
     }
     .contact-pic-container{
         display: none;
@@ -296,11 +300,11 @@
     }
 
     .exptxt-container h1{
-        font-size: 40px;
+        font-size: 25px;
     }
 
     .exptxt-container p{
-        font-size: 30px;
+        font-size: 15px;
     }
 
     .experience-container{
