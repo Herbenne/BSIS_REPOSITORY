@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-    /*PROFILE 768x1024 IPAD MINI*/ 
+    /*768x1024 IPAD MINI*/ 
     header{
         position: absolute;
         position: fixed;
@@ -21,17 +21,15 @@
         width: 380px;
     }
 
-    #socials-container{
-        left: 295px;
-        top: 520px;
-    }
-
     .btn-container{
         left: 183px;
-        top: 570px;
+        top: 550px;
         width: 400px;
     }
 
+    .section-txt{
+        margin-bottom: 15rem;
+    }
     /*ABOUT*/
 
     #about{
@@ -161,6 +159,7 @@
 }
 
 @media screen and (max-width: 414px){
+    /* IPHONE XR */
     header{
         padding: 5px 35px;
         border-radius: 0 0 2rem 2rem;
@@ -297,7 +296,7 @@
     }
 
     .exptxt-container h1{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .exptxt-container p{
@@ -385,7 +384,7 @@
     }
 
     .exptxt-container{
-        top: 120px;
+        top: 110px;
     }
 
     .exptxt-container p{

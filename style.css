@@ -76,7 +76,6 @@ header{
 }
 
 section{
-
     padding-top: 4vh;
     margin: 0 10 rem;
     box-sizing: border-box;
@@ -108,7 +107,6 @@ section{
 
 .section-txt{
     align-self: center;
-    margin-bottom: 200px;
 }
 
 .title{
@@ -123,45 +121,19 @@ section{
     color: black;
 }
 
-#socials-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    gap: 1rem;
-    height: 5vh;
-    align-items: center;
-    position: absolute;
-    top: 405px;
-    left: 732px;
-}
-
 .icon{
     cursor: pointer;
     height: 2rem;
 }
 
-.btn-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    height: 8vh;
-    width: 25vw;
-    position: absolute;
-    top: 465px;
-    left: 770px;
-}
-
-.btn {
+.btn{
     font-family: 'Poppins';
-    width: 170px;
-    margin-top: 10px;
-    display: inline-block;
+    width: 150px;
     background: #333;
     color: #FBD8C2;
     font-size: 17px;
     border-radius: 15px;
-    padding: 8px 25px;
+    height: 40px;
 }
 
 .btn:hover {
@@ -305,7 +277,7 @@ section{
     display: flex;
     height: 250px;
     width: 250px;
-    top: 490px;
+    bottom: 0;
     left: 20px;
     animation: fadeInFromTop .5s linear forwards, floating ease 4s infinite;
 }
