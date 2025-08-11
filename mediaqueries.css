@@ -94,14 +94,35 @@
     }
 
     .model-box {
-        position: absolute;
-        border: 1px solid red;
-        right: 10%;
-        top: 10%;
-        scale: 0.5;
+        scale: 0.8;
+        left: 5rem;
     }
 }
 
+@media (max-width: 992px){
+    .bento-grid {
+        position: relative;
+        display: grid;
+        height: 80vh;
+    }
+    .model-box {
+        position: relative;
+        scale: 0.6;
+        margin-top: 4.5rem;
+        left: 0;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+
+    .card-text {
+        line-height: 1.5;
+        margin-top: 0;
+    }
+
+}
 @media (max-width: 1440px){
     .model-box {
             position: absolute;
