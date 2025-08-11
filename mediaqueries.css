@@ -1,414 +1,140 @@
-@media screen and (max-width: 768px) {
-    /*768x1024 IPAD MINI*/ 
+@media (max-width: 1300px){
     header{
-        position: absolute;
-        position: fixed;
+        padding: 1rem 0.8rem;
     }
 
-    #profile{
-        flex-direction: column;
-        align-items: center;
+    header h1{
+        font-size: 2rem;
     }
 
-    .pic-container{
-        height: 380px;
-        width: 380px;
-        margin-top: 6rem;
+    nav a{
+        font-size: 0.7rem;
     }
 
-    .pic-container img{
-        height: 380px;
-        width: 380px;
+    .content{
+        margin-top: 50%;
     }
 
-    .btn-container{
-        left: 183px;
-        top: 550px;
-        width: 400px;
+    .spline{
+        scale: 0.5;
+        top: -20%;
+        right: 2%;
     }
 
-    .section-txt{
-        margin-bottom: 15rem;
-    }
-    /*ABOUT*/
+}
 
-    #about{
-        flex-direction: column;
+@media (max-width: 768px){
+    header{
+        padding: 1rem 0.1rem;
     }
 
-    .ufo-container{
-        height: 200px;
-        width: 200px;
+    nav{
+        display: none;
     }
 
-    .avatar-container{
-        height: 230px;
-        width: 230px;
-        top: 420px;
-        left: 1rem;
+    header h1{
+        font-size: 2rem;
     }
 
-    .avatar-container img{
-        height: 230px;
-        width: 230px;
+    .btn-signing{
+        padding: 0.6rem 1.5rem;
     }
 
-    .aboutxt-container{
-        margin-left: 250px;
-        width: 500px;
+    .content{
+        margin-top: 25rem;
     }
 
-
-    /*EXPERIENCE*/
-
-   .exp-pic-container, .exp-pic-container1{
-    display: none;
-   }
-
-   .exptxt-container{
-        top: 150px;
-   }
-
-   .exptxt-container h1{
-    font-size: 25px;
-   }
-
-   .exptxt-container p{
-       font-size: 15px;
-   }
-    .experience-container{
-        margin: auto 30px;
-        width: 45vw;
-    }
-   
-   /*NAV BAR*/
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-
-    .hamburger .line {
-        width: 30px;
-        height: 3px;
-        background: #fbd8c2;
-        margin: 6px 0;
-    }
-
-    .nav-bar {
-        height: 0;
-        position: absolute;
-        top: 80px;
-        left: 0;
+    .spline{
+        scale: 0.5;
+        top: -25%;
         right: 0;
-        width: 100vw;
-        background-color: #1c1e21;
-        border-radius: 3rem;
-        box-shadow: 0 16px 8px -9px rgba(191, 191, 191, 1);
-        transition: 0.5s;
-        overflow: hidden;
     }
 
-    .nav-bar.active {
-        height: 450px;
+    .content{
+        max-width: 30rem;
+        margin-left: 10%;
     }
 
-    .nav-bar ul {
-        display: block;
-        width: fit-content;
-        margin: 80px auto 0 auto;
-        text-align: center;
-        transition: 0.5s;
-        opacity: 0;
+    .tag-box{
+        width: 12rem;
     }
 
-    .nav-bar.active ul {
-        opacity: 1;
+    .content h1{
+        font-size: 2.5rem;
     }
 
-    .nav-bar ul li a {
-        margin-bottom: 12px;
+    .description{
+        font-size: 1rem;
     }
 
-    /* PROJECT */
-    .projects-container{
-        padding: 20px;
+    .btn-get-started{
+        padding: 0.8rem 1.2rem;
+        font-size: 0.6rem;
     }
 
-    /* CONTACT */
-    #contact{
-        height: 100vh;
+    .btn-signing-main{
+        padding: 0.8rem 2rem;
+        font-size: 0.6rem;
     }
-    #contact h1{
+
+    .bento-grid{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "intro"
+        "tech"
+        "time"
+        "passion"
+        ;
+        gap: 1rem;
+    }
+
+    .about-title{
+        margin-bottom: 5%;
+        font-size: 3rem;
+    }
+
+    .model-box {
         position: absolute;
-        width: 41.3vw;
-        margin-left: 58rem;
-        margin-bottom: 50rem;
-        font-size: 50px;
-    }
-
-    .contact-info{
-        flex-direction: column;
-    }
-    .contact-card{
-        width: 100%;
-        max-width: 300px;
-        margin: 10px 0;
-        height: 180px;
-    }
-
-    .contact-pic-container img{
-        display: none;
-        visibility: hidden;
+        border: 1px solid red;
+        right: 10%;
+        top: 10%;
+        scale: 0.5;
     }
 }
 
-@media screen and (max-width: 414px){
-    /* IPHONE XR */
-    header{
-        padding: 5px 35px;
-        border-radius: 0 0 2rem 2rem;
-        position: absolute;
-        position: fixed;
-    }
-    .logo {
-        font-size: 20px;
-    }
-    .pic-container{
-        height: 280px;
-        width: 280px;
-    }
+@media (max-width: 1440px){
+    .model-box {
+            position: absolute;
+            right: -25%;
+            top: -105%;
+            width: 55rem;
+            height: 55rem;
+        }
 
-    .pic-container img{
-        height: 280px;
-        width: 280px;
+    .bento-grid .btn{
+        bottom: 0;
     }
-
-    .section-txt{
-        font-size: smaller;
-        position: absolute;
-        top: 28rem;
-    }
-
-    .btn-container{
-        top: 40rem;
-        left: 2.5rem;
-        width: 325px;
-    }
-
-    #socials-container{ 
-        top: 37rem;
-        left: 7rem;
-    }
-
-    .avatar-container img{
-        height: 150px;
-        width: 150px;
-    }
-
-    .avatar-container{
-        height: 150px;
-        width: 150px;
-    }
-
-    .aboutxt-container{
-        width: 390px;
-        margin-right: 15.5rem;
-    }
-
-    .avatar-container{
-        display: none;
-        visibility: none;
-    }
-
-    .ufo-container{
-        top: 7.5rem;
-        height: 130px;
-        width: 130px;
-        margin-left: 10rem;
-    }
-
-    .experience-container{
-        width: 45vw;
-        margin: auto 5px;
-    }
-
-    .experience-sub{
-        font-size: 1.25rem;
-    }
-    .exptxt-container{
-        top: 150px;
-    }
-
-    .exptxt-container h1{
-        font-size: 25px;
-    }
-
-    .exptxt-container p{
-        font-size: 15px;
-    }
-    .contact-pic-container{
-        display: none;
-    }
-
-    #project{
-        height: 270vh;
-    }
-    #contact h1 {
-        font-size: 30px;
-        width: 191px;
-    }
-
-    footer{
-        text-align: center;
-    }
-
 }
 
-@media screen and (max-width: 390px){
-    /* IPHONE 12 PRO */
-
-    header{
-        position: absolute;
-        position: fixed;
-    }
-    .btn-container{
-        left: 2.3rem;
-        top: 40rem;
-    }
-
-    #socials-container{
-        left: 6.8rem;
-        top: 37rem;
+@media (max-width: 480px) {
+    .bento-grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "intro"
+            "tech"
+            "time"
+            "passion"
+        ;
     }
 
-    .aboutxt-container{
-        width: 350px;
-        z-index: 2;
+    .about-title {
+        margin-bottom: 5%;
+        font-size: 3rem;
     }
 
-    .ufo-container{
-        margin-left: 8rem;
-    }
-
-    .avatar-container{
-        display: none;
-        visibility: hidden;
-    }
-
-    .exptxt-container{
-        top: 150px;
-    }
-
-    .exptxt-container h1{
-        font-size: 25px;
-    }
-
-    .exptxt-container p{
-        font-size: 15px;
-    }
-
-    .experience-container{
-        margin: auto 5px;
-        width: 200px;
-    }
-
-    .experience-container h2{
-        font-size: 20px;
-    }
-
-    #contact h1 {
-        font-size: 30px;
-        margin-top: 150px;
-    }
-
-}
-
-@media screen and (max-width: 375px){
-/* IPHONE SE */
-    header{
-        border-radius: 0 0 2rem 2rem ;
-        padding: 10px 25px;
-        position: absolute;
-        position: fixed;
-    }
-
-    .logo{
-        font-size: 20px;
-    }
-
-    .title{
-        font-size: 30px;
-    }
-    
-    .pic-container{
-        height: 200px;
-        width: 200px;
-    }
-
-    .pic-container img{
-        height: 200px;
-        width: 200px;
-    }
-    .section-txt{
-        padding-left: 25px;
-        top: 22rem;
-    }
-
-    .btn-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 5vh;
-        width: 325px;
-        left: 1.6rem;
-        top: 550px;
-    }
-
-    #socials-container{
-        top: 490px;
-        left: 6.1rem;
-        position: absolute;
-    }
-
-    .aboutxt-container{
-        width: 350px;
-        margin-right: 250px;
-        top: 7.5rem;
-    }
-
-    .ufo-container{
-        top: 4rem;
-        height: 100px;
-        width: 100px;
-    }
-
-    .experience-container{
-        width: 200px;
-        margin: auto 5px;
-    }
-
-    .exptxt-container{
-        top: 110px;
-    }
-
-    .exptxt-container p{
-        font-size: 15px;
-    }
-
-    .exptxt-container h1{
-        font-size: 25px;
-    }
-    #contact{
-        height: 150vh;
-    }
-
-    footer{
-        text-align: center;
-
-    }
-
-    #contact h1{
-        width: 191px;
-        font-size: 30px;
+    .model-box {
+        right: -4%;
+        top: 27%;
+        scale: 0.7;
     }
 }

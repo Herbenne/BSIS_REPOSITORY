@@ -1,20 +1,8 @@
-hamburger = document.querySelector(".hamburger");
-hamburger.onclick = function() {
-    navbar = document.querySelector(".nav-bar")
-    navbar.classList.toggle("active")
-}
+document.querySelectorAll('.card').forEach(card => {
+  card.addEventListener('mouseenter', e => {
+    const rect = card.getBoundingClientRect();
 
-var typed = new Typed(".auto-input", {
-        strings: ["Herbenne Rey", "Web Developer", "Programmer"],
-        typeSpeed: 100,
-        backSpeed: 100,
-        loop: true 
+    card.style.setProperty('--x', `${e.clientX - rect.left}px`);
+    card.style.setProperty('--y', `${e.clientY - rect.top}px`);
+  })
 })
-
-$(window).on("load", function () {
-        setTimeout(function () {
-          $(".preloader").fadeOut(function () {
-            $("body").removeClass("noscroll");
-          });
-        }, 2500);
-      });
