@@ -159,3 +159,12 @@
         scale: 0.7;
     }
 }
+
+@media (max-width: 900px) {
+    .model-box{
+        border: 1px solid red;
+        scale: 1.5;
+        top: -35%;
+        margin-left: -17.5rem;
+    }
+}
