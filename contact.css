@@ -1,0 +1,107 @@
+.contact-form {
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    background-color: black;
+        background-image: repeating-linear-gradient(to right, transparent 0 100px,
+                #25283b22 100px 101px), repeating-linear-gradient(to bottom, transparent 0 100px,
+                #25283b22 100px 101px);
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+}
+
+.contact-form .container {
+    max-width: 700px;
+    margin-top: 0 auto;
+}
+
+.contact-form h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: #e7e7e7;
+    font-weight: 400;
+}
+
+.contact-form h2{
+    line-height: 100px;
+    margin-bottom: 5px;
+    font-size: 60px;
+    font-weight: 500;
+    color: #e7e7e7;
+    text-align: center;
+}
+
+.contact-form .main {
+    position: relative;
+    display: flex;
+    margin: 30px 0;
+}
+
+.contact-form .content {
+    flex-basis: 40%;
+    padding: 3em 3em;
+    background-color: #5e6717;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.form-img {
+    flex-basis: 40%;
+    background-color:#41b627;
+    background-size: cover;
+    padding: 20px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    display: grid;
+}
+
+.form-img img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.contact-form .btn-submit, input {
+    border-radius: 35px;
+}
+
+.contact-form .btn-submit:hover {
+    color: #5ef500;
+    transition: 0.5s ease;
+    background-color: #638713;
+
+}
+
+.contact-section .contact-form form{
+    margin: 30px 0;
+}
+
+.contact-section .contact-form form input, textarea {
+    outline: none;
+    margin-bottom: 15px;
+    font-stretch: 16px;
+    color: #5e6717;
+    padding: 20px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #e7e7e7;
+    transition: 0.3s ease;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.contact-form .btn-submit {
+    font-size: 1.5rem;
+    color: #e7e7e7;
+    width: 100%;
+    background: #41b627;
+    font-weight: 600;
+    transition: 0.3s ease;
+    padding: 14px 15px;
+}

@@ -2,6 +2,9 @@
     height: 100vh;
     width: 100%;
     background-color: black;
+        background-image: repeating-linear-gradient(to right, transparent 0 100px,
+                #25283b22 100px 101px), repeating-linear-gradient(to bottom, transparent 0 100px,
+                #25283b22 100px 101px);
     margin: 0rem;
     overflow: hidden;
 }

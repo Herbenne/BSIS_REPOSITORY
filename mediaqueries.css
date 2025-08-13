@@ -101,6 +101,13 @@
     .skills {
         margin-top: 30rem;
     }
+
+    .contact-form .main {
+        flex-direction: column;
+    }
+    footer .menu li a {
+        font-size: 0.4em;
+    }   
 }
 
 @media (min-width: 768px) {
