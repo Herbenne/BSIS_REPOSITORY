@@ -371,6 +371,10 @@ footer .social_icon li, footer .menu li {
     color: #e7e7e7;
 }
 
+footer .social_icon li a {
+        color: #e7e7e7;
+}
+
 footer .social_icon li:hover {
     transform: translateY(-10px);
 }
