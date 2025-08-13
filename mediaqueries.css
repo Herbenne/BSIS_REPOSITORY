@@ -95,4 +95,8 @@
     .bento-grid .btn{
         display: none;
     }
+
+    .skills {
+        margin-top: 30rem;
+    }
 }
