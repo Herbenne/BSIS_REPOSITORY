@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body{
     font-family: 'Pixelify Sans', sans-serif;
     background-color: black;
@@ -193,14 +196,14 @@ main{
 
 .spline{
     position: absolute;
-    right: -25%;
+    right: -20%;
 }
 
 /* ABOUT SECTION */
 .about-section{
     height: 95vh;
     width: 100%;
-    margin-top: 20rem;
+    margin-top: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -265,7 +268,7 @@ main{
 }
 
 .card-title{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
     margin-top: 1rem;
     color: white;
@@ -277,6 +280,7 @@ main{
     margin-top: 2rem;
     margin-bottom: 2rem;
     max-width: 30rem;
+    font-size: 1.5rem;
 }
 
 .bento-grid .background-img{

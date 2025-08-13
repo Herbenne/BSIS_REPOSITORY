@@ -1,170 +1,98 @@
-@media (max-width: 1300px){
-    header{
-        padding: 1rem 0.8rem;
+@media (max-width: 430px) {
+    /* Header adjustments */
+    header {
+        flex-direction: column;
+        padding: 1.5rem;
+        gap: 1.5rem;
     }
 
-    header h1{
-        font-size: 2rem;
-    }
-
-    nav a{
-        font-size: 0.7rem;
-    }
-
-    .content{
-        margin-top: 50%;
-    }
-
-    .spline{
-        scale: 0.5;
-        top: -20%;
-        right: 2%;
-    }
-
-}
-
-@media (max-width: 768px){
-    header{
-        padding: 1rem 0.1rem;
-    }
-
-    nav{
-        display: none;
-    }
-
-    header h1{
-        font-size: 2rem;
-    }
-
-    .btn-signing{
-        padding: 0.6rem 1.5rem;
-    }
-
-    .content{
-        margin-top: 25rem;
-    }
-
-    .spline{
-        scale: 0.5;
-        top: -25%;
-        right: 0;
-    }
-
-    .content{
-        max-width: 30rem;
-        margin-left: 10%;
-    }
-
-    .tag-box{
-        width: 12rem;
-    }
-
-    .content h1{
+    header h1 {
         font-size: 2.5rem;
     }
 
-    .description{
-        font-size: 1rem;
+    nav {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 1.5rem;
     }
 
-    .btn-get-started{
-        padding: 0.8rem 1.2rem;
-        font-size: 0.6rem;
+    .btn-signing {
+        padding: 0.7rem 2rem;
+        font-size: 1.1rem;
     }
 
-    .btn-signing-main{
-        padding: 0.8rem 2rem;
-        font-size: 0.6rem;
+    /* Main content adjustments */
+    .content {
+        margin-left: 0;
+        text-align: center;
+        padding: 0 1.5rem;
     }
 
-    .bento-grid{
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "intro"
-        "tech"
-        "time"
-        "passion"
-        ;
-        gap: 1rem;
-    }
-
-    .about-title{
-        margin-bottom: 5%;
+    .content h1 {
         font-size: 3rem;
     }
 
-    .model-box {
-        scale: 0.8;
-        left: 5rem;
-    }
-}
-
-@media (max-width: 992px){
-    .bento-grid {
-        position: relative;
-        display: grid;
-        height: 80vh;
-    }
-    .model-box {
-        position: relative;
-        scale: 0.6;
-        margin-top: 4.5rem;
-        left: 0;
-    }
-
-    .card-title {
+    .description {
         font-size: 1.2rem;
-        margin-top: 0;
+        padding: 0 0.7rem;
     }
 
-    .card-text {
-        line-height: 1.5;
-        margin-top: 0;
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
     }
 
-}
-@media (max-width: 1440px){
-    .model-box {
-            position: absolute;
-            right: -25%;
-            top: -105%;
-            width: 55rem;
-            height: 55rem;
-        }
-
-    .bento-grid .btn{
-        bottom: 0;
+    .btn-get-started,
+    .btn-signing-main {
+        font-size: 1.2rem;
+        padding: 0.8rem 2.5rem;
     }
-}
 
-@media (max-width: 480px) {
-    .bento-grid {
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "intro"
-            "tech"
-            "time"
-            "passion"
-        ;
+    /* About section adjustments */
+    .about-section {
+        margin-top: 7rem;
     }
 
     .about-title {
-        margin-bottom: 5%;
-        font-size: 3rem;
+        font-size: 3.5rem;
+    }
+
+    .bento-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "intro intro"
+            "tech tech"
+            "time passion";
+        width: 95%;
+        gap: 1.5rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+
+    .card .card-title {
+        font-size: 1rem;
+    }
+
+    .card .card-text {
+        font-size: 0.9rem;
+    }
+
+    .spline {
+        display: none;
     }
 
     .model-box {
-        right: -4%;
-        top: 27%;
-        scale: 0.7;
+        display: none;
     }
-}
 
-@media (max-width: 900px) {
-    .model-box{
-        border: 1px solid red;
-        scale: 1.5;
-        top: -35%;
-        margin-left: -17.5rem;
+    .tag-box {
+        margin: 0 auto;
+    }
+
+    .bento-grid .btn{
+        display: none;
     }
 }
