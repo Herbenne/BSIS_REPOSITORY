@@ -66,3 +66,13 @@ window.addEventListener('mouseup', handleOnUp, { passive: true });
 window.addEventListener('touchend', (e) => handleOnUp(e.touches[0]), { passive: true });
 window.addEventListener('mousemove', handleOnMove, { passive: true });
 window.addEventListener('touchmove', (e) => handleOnMove(e.touches[0]), { passive: true });
+
+//cv download
+  document.getElementById("cvDownload").addEventListener("click", () => {
+    const a = document.createElement("a");
+    a.href = "assets/cvSomo.pdf"; // Path to your CV file
+    a.download = "HerbenneReyV_CV.pdf"; // Downloaded filename
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  });
