@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="mediaqueries.css">
   <title>Document</title>
 </head>
-<body>
+<body id="top">
   <img class="image-gradient" src="gradient.png" alt="gradient">
   <div class="layer-blur"></div>
 
@@ -108,7 +108,10 @@
       
         <img src="assets/gradient3&4.png" alt="" class="background-img">
       
-        <button class="btn"><i class='bx bx-send'></i> CONTACT ME</button>
+      <button class="btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+        <i class='bx bx-send'></i> CONTACT ME
+      </button>
+
       </div>
 
 
@@ -195,7 +198,7 @@
       </ul>
     
       <ul class="menu">
-        <li><a href="#home">Home</a></li>
+        <li><a href="#top">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skill">Skills</a></li>
         <li><a href="#project">Projects</a></li>
