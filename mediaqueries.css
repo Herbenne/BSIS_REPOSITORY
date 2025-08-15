@@ -194,6 +194,46 @@
     }
 }
 
+@media (min-width: 900px) {
+    /* Adjustments for larger screens */
+
+    nav {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .btn-signing {
+        font-size: 0.7rem;
+    }
+
+
+    .buttons {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .btn-get-started,
+    .btn-signing-main {
+        font-size: 1.1rem;
+        padding: 0.7rem 2.2rem;
+    }
+
+    .bento-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "intro intro"
+            "tech tech"
+            "time passion";
+        width: 95%;
+        height: auto;
+        gap: 1.5rem;
+    }
+
+    .model-box {
+        right: -60%;
+    }
+    
+}
 @media (min-width: 1024px) {
     /* Adjustments for medium screens */
     header {
